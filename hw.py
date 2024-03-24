@@ -19,6 +19,19 @@ num1 = int(input("enter number "))
 num2 = int(input("enter number2 "))
 operation = input ("what is your operation? add,subtract,multiply, divide ")
 
+if operation == "add":
+    print("answer:", add(num1, num2))
+elif operation == "subtract":
+    print("answer:", subtract(num1, num2))
+elif operation == "multiply":
+    print("answer:", multiply (num1, num2))
+elif operation == "divide":
+    print("answer", divide(num1, num2))
+else:
+    print("invalid input")
+
+
+          
 
 #2
 def add_item(shopping_list, item):
